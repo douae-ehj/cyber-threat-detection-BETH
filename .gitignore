@@ -1,0 +1,21 @@
+# Dataset files — not committed (see README for data access instructions)
+labelled_train.csv
+labelled_validation.csv
+labelled_test.csv
+*.csv
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
