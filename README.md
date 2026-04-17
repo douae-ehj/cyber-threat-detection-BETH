@@ -5,6 +5,7 @@
 This repository contains an implementation of a deep learning intrusion detection system trained on the **BETH dataset** : a collection of real Linux host telemetry captured via eBPF system-call tracing, enriched with honeypot attack data. The goal is binary classification: distinguishing **suspicious/malicious system-call events** (`sus_label = 1`) from **benign** ones (`sus_label = 0`).
 
 The dataset used in this project is a preprocessed split (train / validation / test) derived from the original BETH dataset. The split was prepared by DataCamp as part of a guided project. The original BETH dataset is described in the paper [*"BETH Dataset: Real Cybersecurity Data for Anomaly Detection Research"*](https://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-033.pdf) (Haider et al., 2021).
+Original dataset link: [Kaggle BETH Dataset](https://www.kaggle.com/datasets/katehighnam/beth-dataset).
 
 > **Data access:** The preprocessed CSV files are not included in this repository due to their size and redistribution constraints. You can obtain them from DataCamp's *"Detecting Cyber Threats with Deep Learning"* project, or use the original BETH dataset from the paper linked above and apply your own train/validation/test split.
 
