@@ -41,7 +41,7 @@ The dataset contains **7 numerical features** and 1 binary target label:
 ### Dataset Characteristics and Class Imbalance Analysis
 
 - Overview of dataset size across train, validation, and test splits.
-- Analysis of the severe class imbalance (~600:1 ratio) and its implications for model design.
+- Analysis of the severe class imbalance and its implications for model design.
 
 ### Data Preprocessing
 
